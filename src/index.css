@@ -1,0 +1,335 @@
+html{
+  width:100%;
+  height:100%;
+}
+.window{
+  display: flex;
+  height:80vh;
+  width:80vw;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-image: url("./img/DK1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 150px;
+  font-family: 'Anton', sans-serif;
+  transition: background-image 2s ease-in-out, font-size 2s ease-in-out;
+}
+.window:hover {
+  font-size: 250px; 
+  background-image: url("./img/DK2.jpg"); 
+}
+
+.window2{
+  display: flex;
+  height:70vh;
+  width:75vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding:50px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background:black;
+  margin-top: 5%;
+}
+
+.window3{
+  display: flex;
+  height:70vh;
+  width:75vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding:50px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background:black;
+  margin-top: 5%;
+}
+
+.title{
+  margin-left: 10vw;
+  font-family: 'Anton', sans-serif;
+  width:100%;
+}
+
+.title2{
+  margin-left: 10vw;
+  height: 50px;
+  width: 20%;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  display:flex;
+  align-items: center;
+}
+
+.entryLink{
+  color: rgba(255, 255, 255, .5);
+  opacity: .25; 
+  text-decoration: none;
+}
+
+.header{
+  width: 100.5vw;
+  margin-left:-1vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height:40px;
+}
+
+.headerRight{
+  width: 35%;
+  margin-left: 20vw; 
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  margin-right: 10vw;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-size: 25px;
+  opacity:.5;
+  }
+
+.photoWindow{
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 5%;
+}  
+
+.top{
+  width: 900px;
+  height: 600px;
+  background-image: url("./img/goat/goat1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2%;
+  transition: background-image 1s ease;
+}
+
+.top:hover{
+  background-image: url("./img/goat/goat2.jpg");  
+}
+.upperLeft{
+  width:710px;
+  height: 400px;
+  background-image: url("./img/mountain/mountaincolor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease;
+  margin: 2%;
+
+  
+}
+
+.upperLeft:hover{
+  background-image: url("./img/mountain/mountaincloud.jpg")
+}
+
+.upperRight{
+  width: 425px;
+  height: 640px;
+  background-image: url("./img/brightbird/brightbird1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2%;
+  transition: background-image 1s ease;
+}
+
+.upperRight:hover{
+  background-image: url("./img/brightbird/brightbird2.jpg");
+}
+
+.middle{
+  width: 900px;
+  height: 565px;
+  background-image: url("./img/porcha/porcha2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2%;
+  transition: background-image 1s ease;
+}
+
+.middle:hover{
+  background-image: url("./img/porcha/porcha.jpg");
+}
+.lowerLeft{
+  width: 399.5px;
+  height: 600px;
+  background-image: url("./img/canyon/canyonbw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease;
+  margin: 2%;
+}
+
+.lowerLeft:hover{
+  background-image: url('./img/canyon/canyoncolor.jpg');
+}
+.lowerRight{
+  width: 710px;
+  height: 475px;
+  margin: 2%;
+  background-image: url("./img/bird/birdtalon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease;
+  margin: 2%;
+}
+
+.lowerRight:hover{
+  background-image: url("./img/bird/birdface.jpg");
+}
+
+.bottom{
+  width: 900px;
+  height: 565px;
+  background-image: url("./img/aston/aston1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2%;
+  transition: background-image 1s ease;
+}
+
+.bottom:hover{
+  background-image: url("./img/aston/aston2.jpg");
+}
+
+.footer{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright{
+  display: inline-block;
+  margin-right: 5px;
+  font-family: 'Anton', sans-serif;  
+}
+
+.senderInfo{
+  margin: 5%;
+}
+
+.input1{
+  background-color: white; 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  height:25px;
+  width:150px;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.input2{
+  background-color: white; 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  height:25px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.input3{
+  width: 100%;
+  height: 150px;
+  padding: 2px;
+  background-color: white; 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button{
+  width: 100%;
+  background-color: rgb(76, 173, 79); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+}
+
+.button:hover{
+  width: 100%;
+  background-color: rgba(76, 173, 79, .5); /* Green */
+}
+
+@media only screen and (max-width: 750px) {
+ .link{
+   font-size: 15px;
+ }
+
+ .title2{
+   font-size: 15px;
+ }
+}
+
+@media only screen and (max-width: 950px) {
+  .top{
+    width: 603px;
+    height: 402px;
+  }
+  .upperLeft{
+    width:475.7px;
+    height: 268px;
+  }
+  
+  .upperRight{
+    width: 284.75px;
+    height: 428.8px;
+  }
+  
+  .middle{
+    width: 603px;
+    height: 378.55px;
+
+  }
+  
+  .lowerLeft{
+    width: 268px;
+    height: 402px;
+  }
+  
+  .lowerRight{
+    width: 475.7px;
+    height: 318.25px;
+  }   
+  .bottom{
+    width: 603px;
+    height:  376.666667px;
+  }
+}
